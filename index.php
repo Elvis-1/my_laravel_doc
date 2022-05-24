@@ -9,6 +9,9 @@ MAKING A SINGLE MIGRATION --> php artisan migrate --path database\migrations\202
 CREATING A MODEL WITH MIGRATION --> php artisan make:model Testimony --migration
 
 CREATING A CONTROLLER WITH CRUD METHODS --> php artisan make:controller TestimonyController --api
+CREATING A CONTROLLER WITH CRUD METHODS, REQUEST AND ATTACHING A MODEL
+ php artisan make:controller AlbumController --model=Album --requests --api
+
 */
 
 /** SHARED SERVER */
