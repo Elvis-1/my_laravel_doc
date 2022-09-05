@@ -12,6 +12,9 @@ CREATING A CONTROLLER WITH CRUD METHODS --> php artisan make:controller Testimon
 CREATING A CONTROLLER WITH CRUD METHODS, REQUEST AND ATTACHING A MODEL
  php artisan make:controller AlbumController --model=Album --requests --api
 
+ ROLLBACK A SPECIFIC MIGRATION 
+ php artisan migrate:rollback --path=/database/migrations/your_file.php
+
 */
 
 /** SHARED SERVER */
